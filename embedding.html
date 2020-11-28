@@ -13,7 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
   <style>
-    .menu-embedding {
+    .menu-result {
       color: rgb(255, 255, 255) !important;
       opacity: 1 !important;
       font-weight: 700 !important;
@@ -21,10 +21,42 @@
   </style>
 </head>
 
-<body class="force-no-scroll">
+<body>
   <div class="menu-container"></div>
-  <div class="iframe-container">
-    <iframe class="iframe" src="http://yenchiah.me/geo-heatmap/GeoHeatmap.html"></iframe>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div>
+          <h1 style="font-size: 45px;"><center>Results</center></h1>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">We will use the Fast.ai deep learning library (https://docs.fast.ai/), which has the advantage of having a  learning rate finder function which returns a range of optimal learning rates. Fast.ai also allows the discriminative learning rates so that different layers of a neural network will be trained at different speeds. </p>
+
+            <p class="text">We see that ensemble learning techniques improve prediction abilities of transfer learning. As a result, the stacking ensemble learning with Linear SVC has the highest AUC score of 0.9793 and the accuracy of 92.58% on the testing images. 
+            </p>
+            <img class="image center max-width-400 add-top-margin-small" src="img/evaluate.PNG">
+            <p class="text">Besides, the accuracy we obtained with our best model on the test dataset is the highest score (92.58%) comparing with all other kaggle notebooks on this problem (the date of 11/25/2020) https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign/notebooks
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+        <!-------------------------------------------------------------------------------------------->
+        
+        <!-------------------------------------------------------------------------------------------->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic">
+              Credits: <span class="highlight-text">Organization One</span>: Author One and Author Two / <span class="highlight-text">Organization Two</span>: Author Three and Author Four
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
